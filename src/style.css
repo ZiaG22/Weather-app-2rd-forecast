@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(
+    95.2deg,
+    rgb(173, 252, 234) 26.8%,
+    rgb(192, 229, 246) 64%
+  );
+
+  font-family: "Roboto", sans-serif;
+}
+main {
+  padding: 10px 0;
+}
+h1 {
+  color: rgb(83, 111, 124);
+  font-size: 75px;
+  margin-bottom: -10px;
+  position: relative;
+  left: 20px;
+}
+
+footer {
+  color: grey;
+  margin-top: 20px;
+}
+strong {
+    color:grey;
+}
+.temp-degree {
+  color: #404d58;
+  font-size: 80px;
+  margin-top: -30px;
+  position: relative;
+  left: 450px;
+  top: -50px;
+}
+.temp-unit {
+    color: #404d58;
+  font-size: 40px;
+  margin-top: -30px;
+  position: relative;
+  left: 450px;
+  top: -50px;
+
+}
+.weather-icon {
+  position: relative;
+  top: -25px;
+  left: 200px;
+  font-size: 45px;
+  
+  
+}
+.temp-detais {
+  font-size: 20px;
+  color:#84c9be;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  margin: 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color:#77d5c5;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.search-form-input {
+  background-color: #f9f7fea3;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.search-form-button {
+  background: linear-gradient(
+    95.2deg,
+    rgb(173, 252, 234) 26.8%,
+    rgb(192, 229, 246) 64%
+  );
+  padding: 15px 25px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+.weather-app {
+  background-color: rgba(300, 255, 255, 0.602);
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 25px;
+}
